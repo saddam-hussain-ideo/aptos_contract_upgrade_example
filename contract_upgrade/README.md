@@ -15,7 +15,7 @@ TESTNET: {  # this must be under your relevant network
 ```
 3. Add your private key in ``.env`` file under relevant network this private key must have admin right to this contract
 ```txt
-APTOS_TESTNET='# your private key here'
+APTOS_TESTNET='# your private key here (must be the private key of admin)' 
 ```
 4. Run below command to upgrade your package 
 ```shell
