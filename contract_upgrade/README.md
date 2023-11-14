@@ -1,5 +1,5 @@
 # Reminder Contract Upgrade
-This project will be used to upgrade ``lp_contract`` aptos module 
+This project will be used to upgrade ``reminder_contract`` aptos module 
 
 ## Usage
 
