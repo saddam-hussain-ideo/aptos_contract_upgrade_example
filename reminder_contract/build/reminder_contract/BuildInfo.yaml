@@ -1,0 +1,49 @@
+---
+compiled_package_info:
+  package_name: reminder_contract
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    reminder_address: be89c3f56039807fc70192da1e7f8c50ad161824fe0df104e592f6a8e31efbb1
+    reminder_default_admin: 7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372
+    reminder_dev: 7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 22F6745CE81DB42D3D4A65F9C95F7EBBF127D1C5B1F9D3C80FDB897EFA2AFA5A
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    generate_move_model: true
+    full_model_generation: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    compiler_config:
+      bytecode_version: ~
+      known_attributes:
+        - bytecode_instruction
+        - deprecated
+        - event
+        - expected_failure
+        - legacy_entry_fun
+        - native_interface
+        - resource_group
+        - resource_group_member
+        - test
+        - test_only
+        - verify_only
+        - view
+      skip_attribute_checks: false
+      compiler_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib

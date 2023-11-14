@@ -1,0 +1,14 @@
+[package]
+name = "reminder_contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+reminder_address = "be89c3f56039807fc70192da1e7f8c50ad161824fe0df104e592f6a8e31efbb1"
+reminder_default_admin = "7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372"
+reminder_dev = "7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372"
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+

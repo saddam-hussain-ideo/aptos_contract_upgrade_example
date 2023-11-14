@@ -1,0 +1,20 @@
+---
+profiles:
+  admin:
+    private_key: "0x84cfd18a10a0fac74621c3201ed1e2e1e8be618b338a1e8c8b281af1f30481c7"
+    public_key: "0xf10f294a1e25f565c930278e9ddfc8260ddf26206ffce1831f5d795be0bd9727"
+    account: 40c170c5ce08d727792c6b5fa1d4f7ac7c1571dba2fbd5b3e8cf6248572f94fb
+    rest_url: "https://fullnode.testnet.aptoslabs.com"
+    faucet_url: "https://faucet.testnet.aptoslabs.com"
+  default:
+    private_key: "0xc89321dcce7e8ad004d027e940010b472ff2810af203872eb5fde36f6645609e"
+    public_key: "0x31fa15b8ba18786b361da9f37cca5e4caa2f3f054f359f9d1c35b72832edb06b"
+    account: 7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372
+    rest_url: "https://fullnode.testnet.aptoslabs.com"
+    faucet_url: "https://faucet.testnet.aptoslabs.com"
+  reminder:
+    private_key: "0xc89321dcce7e8ad004d027e940010b472ff2810af203872eb5fde36f6645609e"
+    public_key: "0x31fa15b8ba18786b361da9f37cca5e4caa2f3f054f359f9d1c35b72832edb06b"
+    account: be89c3f56039807fc70192da1e7f8c50ad161824fe0df104e592f6a8e31efbb1
+    rest_url: "https://fullnode.testnet.aptoslabs.com"
+    faucet_url: "https://faucet.testnet.aptoslabs.com"
