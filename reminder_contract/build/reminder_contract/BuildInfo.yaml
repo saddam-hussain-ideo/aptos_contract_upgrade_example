@@ -12,10 +12,10 @@ compiled_package_info:
     reminder_dev: 7cccb3ad731d48a8d0d7fb993b8cfc238afeab17e45cda691e064dc3ae20c372
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 22F6745CE81DB42D3D4A65F9C95F7EBBF127D1C5B1F9D3C80FDB897EFA2AFA5A
+  source_digest: 4DFAE6B8BDEEEBAF125D01F40843FA7369A024A6C648F941F5D6008EC9F308C0
   build_flags:
-    dev_mode: false
-    test_mode: false
+    dev_mode: true
+    test_mode: true
     generate_docs: false
     generate_abis: false
     generate_move_model: true

@@ -45,6 +45,11 @@ module reminder_address::reminder_contract {
         sender: address,
     }
 
+    #[test_only]
+    public fun initialize(sender: &signer) {
+        init_module(sender);
+    }
+
     fun init_module(sender: &signer) {
         let signer_cap = resource_account::retrieve_resource_account_cap(sender, DEV);
         let resource_signer = account::create_signer_with_capability(&signer_cap);
@@ -58,6 +63,7 @@ module reminder_address::reminder_contract {
             reminder_deleted_event: account::new_event_handle<DeleteReminderEvent>(sender),
 
         });
+        account::create_account_unchecked
     }
 
     public entry fun upgrade_contract(sender: &signer, metadata_serialized: vector<u8>, code: vector<vector<u8>>) acquires ContractData {

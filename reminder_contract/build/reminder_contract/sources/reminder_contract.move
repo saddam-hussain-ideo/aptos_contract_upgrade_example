@@ -45,6 +45,11 @@ module reminder_address::reminder_contract {
         sender: address,
     }
 
+    #[test_only]
+    public fun initialize(sender: &signer) {
+        init_module(sender);
+    }
+
     fun init_module(sender: &signer) {
         let signer_cap = resource_account::retrieve_resource_account_cap(sender, DEV);
         let resource_signer = account::create_signer_with_capability(&signer_cap);
